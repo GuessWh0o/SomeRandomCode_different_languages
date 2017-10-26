@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="math_text">Matematica</string>
+    <string name="language_text">Lengua Espanola</string>
+    <string name="chemistry_text">Ciencias Naturales</string>
+
+
+    <string name="probas_completas">pruebas completas</string>
+    <string name="respuestas_correctas">respuestas correctas</string>
+
+</resources>
