@@ -11,11 +11,11 @@ import java.io.IOException;
  */
 
 public class SaveImageFromResourcesToBitmap {
-    private static void saveImageFromResToDevice(Context context){
+    private static void saveImageFromResToDevice(Context context, int drawable, String pathToSave, String saveByName){
         FileOutputStream outputStream;
         try{
-            Bitmap bm= BitmapFactory.decodeResource(context.getResources(), R.drawable.omniasig);
-            File file=new File(FileUtils.getPathToPhotosFolder(),"IMAGE_NAME.png");
+            Bitmap bm= BitmapFactory.decodeResource(context.getResources(), drawable);
+            File file=new File(pathToSave, saveByName);
             outputStream=new FileOutputStream(file);
             bm.compress(Bitmap.CompressFormat.PNG,100,outputStream);
             outputStream.flush();
