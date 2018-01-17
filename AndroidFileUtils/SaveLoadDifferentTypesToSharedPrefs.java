@@ -10,7 +10,7 @@ import java.util.Iterator;
 import java.util.Map;
 
 /**
- * Created by Maks on 10/26/2017.
+ * Created by GuessWh0o on 10/26/2017.
  */
 
 public class SaveLoadDifferentTypesToSharedPrefs {
