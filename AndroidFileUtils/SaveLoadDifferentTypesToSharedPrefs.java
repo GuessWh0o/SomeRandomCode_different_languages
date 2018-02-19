@@ -59,7 +59,7 @@ public class SaveLoadDifferentTypesToSharedPrefs {
 
 
     public void saveObjectToHashMap(Object objectToSave) {
-        SharedPreferences pSharedPref = ASIGApp.getAppContext().getSharedPreferences("MyVariables",
+        SharedPreferences pSharedPref = getApplicationContext().getSharedPreferences("MyVariables",
                 Context.MODE_PRIVATE);
         if (pSharedPref != null) {
 
@@ -76,7 +76,7 @@ public class SaveLoadDifferentTypesToSharedPrefs {
     //LOADING OBJECT
 
     public Object loadObjectFromSharedPrefs() {
-        SharedPreferences pSharedPref = ASIGApp.getAppContext().getSharedPreferences("MyVariables", Context.MODE_PRIVATE);
+        SharedPreferences pSharedPref = getApplicationContext().getSharedPreferences("MyVariables", Context.MODE_PRIVATE);
         if (pSharedPref != null) {
             Gson gson = new Gson();
             String json = pSharedPref.getString("MY KEY", "");
