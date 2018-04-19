@@ -8,10 +8,10 @@
   * [Content](#androidUtilsContent)
   * [C Code](#c_code)
   * [Content](#cCodeContent)
-  * [CustomListAdapter](#customListAdapter)
- * [DDP Meteor Test](#testDDP)
+* [CustomListAdapter](#customListAdapter)
+* [DDP Meteor Test](#testDDP)
   * [Description](#testDDPDescription)
- * [Java Algorithms](#java_algorithms)
+* [Java Algorithms](#java_algorithms)
   * [Description](#java_algorithmsDescription)
 
 
