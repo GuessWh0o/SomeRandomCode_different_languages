@@ -17,7 +17,6 @@
 
 
 # <a name="androidUtils"></a> Android Utils
-
 ## <a name="androidUtilsContent"></a> Content
 
 1. Android Screenshot taking example
@@ -31,19 +30,25 @@ etc..
 
 
 # <a name="c_code"></a> C 
-
 ## <a name="cCodeContent"></a> Content
+
+1. Breadth search
+2. list 
+3. readString from file
 
 # <a name="customListAdapter"></a> Custom List Adapter
 
 # <a name="testDDP"></a> DDP Meteor Test
-
 ## <a name="testDDPDescription"></a> Description
+
  Sending device information to server such as: 
   - Free storage internal + external
   
 # <a name="java_algorithms"></a> Java Algorithms
-
 ## <a name="java_algorithmsDescription"></a> Description
+
+1. Sorting algorithms realized with Java(Bubble, Selection, Insertion, Quick).
+2. Merging 2 arrays.
+3. Check for prime number.
   
 
